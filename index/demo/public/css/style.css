@@ -1,0 +1,352 @@
+         * {
+            margin: auto;
+            padding: 0;
+            font-family: arial;
+        }
+        body{
+            overflow-y: scroll;
+            background-color: #dddddd;
+
+        }
+        #space_top{
+  width: auto;  height: 45px;
+        }
+        #center{
+       /* width: 1366px; */
+  height: auto;
+  position: relative;
+  /* margin-top: 25px; */
+  display: block;
+
+        }
+        div.top{
+            z-index: 99999999;
+            width: 1366px;
+            height: 45px;
+            background-color: #16609d;
+            position: fixed;
+            top:  0;
+        }
+        
+        img.point{
+            margin-left: 5px;
+            float: left;
+            width: 15px;
+        }
+        div.point{
+            float: left;
+            margin-left: 40px;
+            margin-top: 12.5px;
+        }
+        span.title_small{
+            margin-left: 10px;
+            font-size: 10px;
+            color: white;
+        }
+        div.title_big{
+            float: left;
+  /* width: 700px; */
+  /* height: 30px; */
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+        }
+        span.title_big{
+            margin-top: 20px;
+            font-size: 25px;
+            color: white;
+        }
+        input.search{
+              border-radius: 4px;
+            float: right;
+            height: 25px;
+            width: 350px;
+        }
+        div.tools{
+              float: left;
+    margin-left: 111px;
+      height: 45px;
+}   
+        
+        img.tool{
+            width: 20px;
+        }
+        div.tool{
+             float: left;
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 15px;
+        }
+        img.tool:hover{
+            width:  25px;
+        }
+        div.account{
+            float: left;
+            margin-top: 2.5px;
+            margin-left: 160px;
+            height: 40px;
+            
+            border-radius: 5px;
+        }
+        img.account{
+            float: left;
+            height: 30px;
+            width:  30px;
+            margin: 5px 0 0 5px;
+            border-radius: 5px;
+        }
+        .account_chat{
+                float: left;
+              height: 40px;
+              width: 40px;
+                margin-right: 15px;
+        }
+        div.name_account{
+             font-size: 20px;
+          float: left;
+          font-weight: bold;
+          color: white;
+          margin-top: 5px;
+          margin-left: 8px;
+          padding-top: 1px;
+          text-align: center;
+                }
+        table.center{
+            margin-top: 58px;
+            padding: 0px;
+            vertical-align: top;
+        }
+        td{
+             vertical-align: top;
+        }
+        div.left{
+              float: left;
+  height: 950px;
+  width: 250px;
+  margin-left: 0px;
+  
+  background-color: #080811;
+        }
+        div.rim{
+            float: left;
+            height: 950px;
+            width: 15px;
+            margin-left: -5px;
+            background-color: #1e202c;
+        }
+        div.personal{
+            margin-top: 0px;
+            padding-top: 20px;
+            height: 350px;
+            width:  100%;
+        }
+        div.picture{
+              margin-bottom: 13px;
+            margin-top: 0px;
+            margin-left: 60px;
+            width: 120px;
+            height:  120px;
+            border: 1px solid white;
+            border-radius: 60px;
+        }
+        img.picture_account{
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        div.info{
+            height: 30px;
+            margin-left: 30px;
+            color: #3c3c3e;
+            font-family: arial;
+        }
+        img.info, span.info{
+            height: 20px;
+            margin-left: 10px;
+        }
+        a.button{
+            float: left;
+            display: block;
+            width: 60px;
+            height: 30px;
+            line-height:30px;
+            background-color: #ef4b30;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        div.list{
+            width: 250px;
+            height: 40px;
+            background-color: #323544;
+            border-top: 1px solid #050508;
+            line-height: 40px;
+        }
+        div.list:hover{
+            background-color: #1e202c;
+        }
+        img.list{
+            float: left;
+            width:20px;
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        div.name_list{
+            float: left;
+            height: 30px;
+            font-size: 15px;
+            color: #b9b9b9;
+            margin-left: 30px;
+        }
+        div.detail{
+            width: 250px;
+            height: 160px;
+            background-color: #1e202c;
+            margin-top: 30px;
+            padding: 5px;
+        }
+        div.album{
+            width: 220px;
+            height: 95px;
+            background-color: #ffffff;
+            margin-left: 15px;
+            margin-top: 50px;
+            border-radius: 3px;
+            padding-top: 5px;
+        }
+        img.album{
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+        }
+        div.name_detail{
+            float: left;
+            color: #ffffff;
+            margin: 10px 10px 10px 30px;
+        }
+        div.view{
+            float: left;
+            background-color: #ef4b30;
+            width: 75px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 15px;
+            border-radius: 5px;
+            margin-top: 5px;
+            margin-left: 70px;
+            text-align:center;
+        }
+        div.middle{
+          padding: 2px;
+     width: 830px;
+  /* margin-left: 8px; */
+  /* float: left; */
+  left: 257px;
+
+  position: absolute;
+  height: auto;
+        }
+        img.cover{
+            width: 830px;
+        }
+        div.menu{
+            width: 100%;
+            height: 40px;
+        }
+        div.item{
+            float: left;
+            width: 150px;
+            text-align: center;
+            line-height: 40px;
+            border-right: 1px solid #050508;
+        }
+        div.item:hover{
+            background-color: #f5f5f5;
+        }
+        div#me{
+            background-color: #f5f5f5;
+        }
+        div.conten{
+            width: 100%;
+            height: 500px;
+            background-color: #f5f5f5;
+            padding-top:5px;
+        }
+        #right {
+               width: 271px;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 45px;
+  left: 1095px;
+  background-color: #E5E5E5;
+  /* right: 0px; */
+  border: solid #CCCCCC 1px;
+  border-right: none;
+        }
+        div.post{
+            width: 210px;
+            margin: 10px 10px;
+            padding: 10px;
+            background-color: #ffffff;
+        }
+        img.img_post{
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            border-radius: 15px;
+        }
+        div.name_post{
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        div.list_friends{
+              width: 230px;
+                  position: relative;
+                  margin: 0px 10px;
+        }
+        div.count_onl{
+              border-bottom: solid;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  /* position: absolute; */
+  display: block;
+  background-color: black;
+  padding-left: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+  background-color: height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+        }
+         div.friend_item{
+            height: 40px;
+            line-height: 40px;
+           position: relative;
+        }
+        img.onl{
+            width: 11px;
+  position: absolute;
+  top: 14.5px;
+  right: 13px;
+        }
+        div#odd{
+            background-color: #f1f1f1;
+              margin-top: 5px;
+        }
+        .homepost{
+            display: block;
+            margin: 10px 5px; 
+            border: solid black;
+
+        }
